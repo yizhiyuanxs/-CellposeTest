@@ -1,0 +1,17 @@
+summary:
+  output_dir: reports/ablation_toy
+  split: val
+
+items:
+  - label: baseline
+    config: configs/baseline_toy.yaml
+    checkpoint_glob: runs/stage_b/????????_??????_baseline_toy_unet/best.pt
+  - label: se
+    config: configs/se_toy.yaml
+    checkpoint_glob: runs/stage_c/????????_??????_se_toy_unet/best.pt
+  - label: cbam
+    config: configs/cbam_toy.yaml
+    checkpoint_glob: runs/stage_c/????????_??????_cbam_toy_unet/best.pt
+  - label: se_cbam
+    config: configs/se_cbam_toy.yaml
+    checkpoint_glob: runs/stage_c/????????_??????_se_cbam_toy_unet/best.pt

@@ -1,0 +1,62 @@
+{
+  "images_dir": "D:\\program_for_customer\\BiShe\\CellPose\\data\\formal_dataset\\raw\\images",
+  "masks_dir": "D:\\program_for_customer\\BiShe\\CellPose\\data\\formal_dataset\\raw\\masks",
+  "output_root": "D:\\program_for_customer\\BiShe\\CellPose\\data\\formal_dataset\\processed",
+  "total_pairs": 36,
+  "seed": 42,
+  "splits": {
+    "train": {
+      "pairs": 25,
+      "stems": [
+        "train_005",
+        "train_008",
+        "train_001",
+        "train_023",
+        "val_004",
+        "train_015",
+        "val_002",
+        "train_021",
+        "train_018",
+        "train_022",
+        "val_003",
+        "train_006",
+        "train_007",
+        "val_000",
+        "train_004",
+        "train_016",
+        "train_012",
+        "val_007",
+        "train_002",
+        "train_020",
+        "test_000",
+        "val_006",
+        "train_009",
+        "train_014",
+        "test_002"
+      ]
+    },
+    "val": {
+      "pairs": 7,
+      "stems": [
+        "val_005",
+        "val_001",
+        "train_017",
+        "test_003",
+        "train_019",
+        "train_000",
+        "train_010"
+      ]
+    },
+    "test": {
+      "pairs": 4,
+      "stems": [
+        "train_011",
+        "train_013",
+        "test_001",
+        "train_003"
+      ]
+    }
+  },
+  "unmatched_images": [],
+  "unmatched_masks": []
+}

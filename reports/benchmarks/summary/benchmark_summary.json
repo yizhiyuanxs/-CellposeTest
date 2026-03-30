@@ -1,0 +1,52 @@
+{
+  "rows": [
+    {
+      "label": "baseline",
+      "device": "cpu",
+      "target_resolution": 1200,
+      "image_count": 4,
+      "mean_seconds": 0.7293496750025952,
+      "median_seconds": 0.7274434999999357,
+      "p95_seconds": 0.7536947300090105,
+      "threshold_seconds": 5.0,
+      "meets_requirement": true,
+      "benchmark": "D:\\program_for_customer\\BiShe\\CellPose\\reports\\benchmarks\\benchmark_1200px.json"
+    },
+    {
+      "label": "cbam",
+      "device": "cpu",
+      "target_resolution": 1200,
+      "image_count": 4,
+      "mean_seconds": 0.9624279499985278,
+      "median_seconds": 0.9628472000040347,
+      "p95_seconds": 0.9675309599915636,
+      "threshold_seconds": 5.0,
+      "meets_requirement": true,
+      "benchmark": "D:\\program_for_customer\\BiShe\\CellPose\\reports\\benchmarks\\cbam_toy\\benchmark_1200px.json"
+    },
+    {
+      "label": "se",
+      "device": "cpu",
+      "target_resolution": 1200,
+      "image_count": 4,
+      "mean_seconds": 0.7679818500000692,
+      "median_seconds": 0.7671362499968382,
+      "p95_seconds": 0.7705239700029779,
+      "threshold_seconds": 5.0,
+      "meets_requirement": true,
+      "benchmark": "D:\\program_for_customer\\BiShe\\CellPose\\reports\\benchmarks\\se_toy\\benchmark_1200px.json"
+    },
+    {
+      "label": "se_cbam",
+      "device": "cpu",
+      "target_resolution": 1200,
+      "image_count": 4,
+      "mean_seconds": 1.0101472750029643,
+      "median_seconds": 1.0099630999975489,
+      "p95_seconds": 1.016012655009399,
+      "threshold_seconds": 5.0,
+      "meets_requirement": true,
+      "benchmark": "D:\\program_for_customer\\BiShe\\CellPose\\reports\\benchmarks\\se_cbam_toy\\benchmark_1200px.json"
+    }
+  ]
+}

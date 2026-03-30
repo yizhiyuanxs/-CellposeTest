@@ -1,0 +1,28 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# IDE files
+.idea/
+.vscode/
+
+# Build and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local outputs and experiment artifacts
+outputs/
+runs/
+
+# Large local model assets
+models/
+
+# OS noise
+Thumbs.db
+Desktop.ini

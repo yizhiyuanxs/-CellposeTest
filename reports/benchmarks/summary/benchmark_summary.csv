@@ -1,0 +1,5 @@
+label,device,target_resolution,image_count,mean_seconds,median_seconds,p95_seconds,threshold_seconds,meets_requirement,benchmark
+baseline,cpu,1200,4,0.7293496750025952,0.7274434999999357,0.7536947300090105,5.0,True,D:\program_for_customer\BiShe\CellPose\reports\benchmarks\benchmark_1200px.json
+cbam,cpu,1200,4,0.9624279499985278,0.9628472000040347,0.9675309599915636,5.0,True,D:\program_for_customer\BiShe\CellPose\reports\benchmarks\cbam_toy\benchmark_1200px.json
+se,cpu,1200,4,0.7679818500000692,0.7671362499968382,0.7705239700029779,5.0,True,D:\program_for_customer\BiShe\CellPose\reports\benchmarks\se_toy\benchmark_1200px.json
+se_cbam,cpu,1200,4,1.0101472750029643,1.0099630999975489,1.016012655009399,5.0,True,D:\program_for_customer\BiShe\CellPose\reports\benchmarks\se_cbam_toy\benchmark_1200px.json

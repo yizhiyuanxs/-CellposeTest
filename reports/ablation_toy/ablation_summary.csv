@@ -1,0 +1,5 @@
+label,split,dice,iou,precision,recall,boundary_precision,boundary_recall,boundary_f1,loss,attention,experiment_name,checkpoint,config
+baseline,val,0.8841653764247894,0.7955216467380524,0.9975554943084717,0.7972967326641083,0.95114666223526,0.9176583886146545,0.9340859353542328,1.3490347266197205,baseline,baseline_toy_unet,D:\program_for_customer\BiShe\CellPose\runs\stage_b\20260323_102823_baseline_toy_unet\best.pt,configs/baseline_toy.yaml
+cbam,val,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.4554364085197449,cbam,cbam_toy_unet,D:\program_for_customer\BiShe\CellPose\runs\stage_c\20260323_103238_cbam_toy_unet\best.pt,configs/cbam_toy.yaml
+se,val,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.425620675086975,se,se_toy_unet,D:\program_for_customer\BiShe\CellPose\runs\stage_c\20260323_103238_se_toy_unet\best.pt,configs/se_toy.yaml
+se_cbam,val,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.5033866167068481,se_cbam,se_cbam_toy_unet,D:\program_for_customer\BiShe\CellPose\runs\stage_c\20260323_103238_se_cbam_toy_unet\best.pt,configs/se_cbam_toy.yaml

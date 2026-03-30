@@ -1,0 +1,12 @@
+summary:
+  output_dir: reports/benchmarks/summary
+
+items:
+  - label: baseline
+    benchmark: reports/benchmarks/benchmark_1200px.json
+  - label: se
+    benchmark: reports/benchmarks/se_toy/benchmark_1200px.json
+  - label: cbam
+    benchmark: reports/benchmarks/cbam_toy/benchmark_1200px.json
+  - label: se_cbam
+    benchmark: reports/benchmarks/se_cbam_toy/benchmark_1200px.json

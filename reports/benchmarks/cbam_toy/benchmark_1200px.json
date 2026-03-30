@@ -1,0 +1,36 @@
+{
+  "device": "cpu",
+  "image_count": 4,
+  "target_resolution": 1200,
+  "mean_seconds": 0.9624279499985278,
+  "median_seconds": 0.9628472000040347,
+  "p95_seconds": 0.9675309599915636,
+  "threshold_seconds": 5.0,
+  "meets_requirement": true,
+  "rows": [
+    {
+      "image": "D:\\program_for_customer\\BiShe\\CellPose\\data\\toy_cells\\test\\images\\test_000.png",
+      "seconds": 0.965579700001399,
+      "height": 1200,
+      "width": 1200
+    },
+    {
+      "image": "D:\\program_for_customer\\BiShe\\CellPose\\data\\toy_cells\\test\\images\\test_001.png",
+      "seconds": 0.9601147000066703,
+      "height": 1200,
+      "width": 1200
+    },
+    {
+      "image": "D:\\program_for_customer\\BiShe\\CellPose\\data\\toy_cells\\test\\images\\test_002.png",
+      "seconds": 0.9561420999962138,
+      "height": 1200,
+      "width": 1200
+    },
+    {
+      "image": "D:\\program_for_customer\\BiShe\\CellPose\\data\\toy_cells\\test\\images\\test_003.png",
+      "seconds": 0.9678752999898279,
+      "height": 1200,
+      "width": 1200
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "sources": {
+    "baseline": "D:\\program_for_customer\\BiShe\\CellPose\\reports\\visualizations\\baseline_toy",
+    "se": "D:\\program_for_customer\\BiShe\\CellPose\\reports\\visualizations\\se_toy",
+    "cbam": "D:\\program_for_customer\\BiShe\\CellPose\\reports\\visualizations\\cbam_toy",
+    "se_cbam": "D:\\program_for_customer\\BiShe\\CellPose\\reports\\visualizations\\se_cbam_toy"
+  },
+  "samples": [
+    {
+      "sample": "test_000",
+      "output": "D:\\program_for_customer\\BiShe\\CellPose\\reports\\visualizations\\ablation_compare\\test_000_compare.png"
+    },
+    {
+      "sample": "test_001",
+      "output": "D:\\program_for_customer\\BiShe\\CellPose\\reports\\visualizations\\ablation_compare\\test_001_compare.png"
+    },
+    {
+      "sample": "test_002",
+      "output": "D:\\program_for_customer\\BiShe\\CellPose\\reports\\visualizations\\ablation_compare\\test_002_compare.png"
+    },
+    {
+      "sample": "test_003",
+      "output": "D:\\program_for_customer\\BiShe\\CellPose\\reports\\visualizations\\ablation_compare\\test_003_compare.png"
+    }
+  ]
+}
